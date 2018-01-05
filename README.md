@@ -3,8 +3,7 @@ A Premier League website made for my mini project, it makes use of all the front
 
 The logout feature on the backend is a pseudo one , in other words, it actually doesn't work, it redirects you to a duplicate page which doesn't show your name as it does when you are logged in.
 
-# Start with the homepage.html ( not homepage2.html, it needs a database to be created to work properly).
-and naivigate to whereveer you want.
+# Start with the homepage.html ( not homepage2.html, it needs a database to be created to work properly)
 
 For the sign up and Login to work, the database with the following details has to be created-
 
@@ -24,6 +23,6 @@ colums names-
   password,
   pp
  
- That's it! Once you have set up the database , you can start using the backe3nd features too. 
+ That's it! Once you have set up the database , you can start using the backend features too. 
  
- This project is shared to help you with your project, it is to be taken as an example and not to be plagiarized.
+ This project is shared to help you with your first project, it is to be taken as an example and not to be plagiarized.
