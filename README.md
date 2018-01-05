@@ -4,10 +4,15 @@ A Premier League website made for my mini project, it makes use of all the fron 
 
 Start with the homepage.html ( not homepage2.html, it needs a database to be created to work properly).
 and naivigate to whereveer you want.
-For he sign up and Login to work, the database with the following details has to be created-
+
+For the sign up and Login to work, the database with the following details has to be created-
+
 Database name- pl
+
 table name- users
+
 number of columns- 8.
+
 colums names-
   id (with auto increment)
   first
@@ -17,5 +22,7 @@ colums names-
   username
   password
   pp
+ 
  That's it! Once you have set up the database , you can start using the backe3nd features too. 
+ 
  This project is shared to help you with your project, it is to be taken as an example and not to be plagiarized.
