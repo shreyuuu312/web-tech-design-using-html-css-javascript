@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  @font-face {
+    font-family: plf;
+    src:url(plf.ttf);
+  }
+  #login{
+    margin-left: 480px;
+    margin-top: 10px;
+    width:250px;
+    padding-left: 60px;
+    padding-right: 50px;
+    border-style: solid;
+    border-color: rgb(61,25,91);
+    border-left: none;
+    border-right: none;
+    align-content: center;
+    opacity:100%;
+  }
+  #logo{
+    margin-left: 515px;
+    margin-top: 100px;
+    width:280px;
+
+
+  }
+  input{
+    border-style: solid;
+    padding: 1px;
+    border-color: rgb(61,25,91);
+      width: 235px;
+  }
+  body{
+    background-color: rgb(5,241,255);
+    width:100%;
+
+  }
+  p{
+    font-family: plf;
+    font-weight: bold;
+    color:rgb(61,25,91);
+    padding-left: 60px;
+    align-content: center;
+  }
+  .subub{
+    margin-left: 0px;
+    margin-top: 15px;
+    background-color: rgb(61,25,91);
+    border-color: rgb(61,25,91);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: plf;
+    width: 235px;
+
+
+  }
+  </style>
+</head>
+<body>
+  <div id="logo">
+    <img src="login-logo.png" alt="Premier League" style="width:280px;">
+  </div>
+  <div id="login" style="align:center">
+    <form method="post" action="login-be.php">
+      
+      <p>Username</p>
+
+      <input type="text" name="username" required>
+      <br>
+      <p>Password</p>
+
+      <input type="password" name="password" required>
+      <br>
+      <input type="submit" value="Log In" class="subub">
+    </form>
+  </div>
+</body>
+</html>
