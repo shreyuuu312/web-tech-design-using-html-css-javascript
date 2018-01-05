@@ -14,13 +14,13 @@ table name- users
 number of columns- 8.
 
 colums names-
-  id (with auto increment)
-  first
-  last
-  mail
-  team
-  username
-  password
+  id (with auto increment),
+  first,
+  last,
+  mail,
+  team,
+  username,
+  password,
   pp
  
  That's it! Once you have set up the database , you can start using the backe3nd features too. 
