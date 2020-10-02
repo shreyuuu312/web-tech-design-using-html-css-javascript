@@ -26,3 +26,10 @@ colums names-
  That's it! Once you have set up the database , you can start using the backend features too. 
  
  This project is shared to help you with your first project, it is to be taken as an example and not to be plagiarized.
+
+# CODE FOR CREATION OF TABLE 
+CREATE TABLE users(id integer PRIMARY KEY AUTO_INCREMENT, FNAME TEXT, LNAME TEXT,
+MAIL TEXT, TEAM TEXT,USERNAME TEXT, PASSWORD TEXT);
+
+INSERT DATA IN IT AND IMPORT SQL FILE AND RUN PROGRAM.
+# THANK-YOU....!!!
